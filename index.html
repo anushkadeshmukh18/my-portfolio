@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <canvas id="dots"></canvas>
+
+  <!-- NAV -->z
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#home" class="logo">PORTFOLIO</a>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav-btn" id="menuBtn"><i class="fa-solid fa-bars"></i></button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <canvas id="dots"></canvas>
+
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-left reveal">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Open to Work
+        </div>
+
+       <h1 class="hero-name">
+  Hi, I'm <span>Anushka Deshmukh</span>
+</h1>
+
+        <div class="typing-wrap">
+          <span class="typing" id="typing"></span>
+          <span class="typing-cursor"></span>
+        </div>
+
+        <p class="hero-sub">
+          Welcome to my portfolio — I build modern responsive web application and enjoy working with Web Development,Python & Devops tools.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn primary"><i class="fa-solid fa-code"></i> View Projects</a>
+          <a href="#contact" class="btn glass"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+          <a href="assets/resume.pdf" class="btn outline" target="_blank"><i class="fa-solid fa-file"></i> Resume</a>
+        </div>
+
+        <div class="hero-mini">
+          <div class="mini-card"><i class="fa-solid fa-location-dot"></i> Nagpur</div>
+          <div class="mini-card"><i class="fa-solid fa-laptop-code"></i> Web Development</div>
+          <div class="mini-card"><i class="fa-solid fa-cloud"></i> DevOps</div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="profile-wrap">
+          <div class="ring"></div>
+          <div class="ring2"></div>
+          <img class="profile-img" src="assets/profile.png" alt="Profile"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+       <section id="about">
+  <h2>About Me</h2>
+</section>
+        <p>
+          I’m a full passionate Software Developer with internship experience in Web Development and Python. I love building responsive web applications and currently learning Devops tools and workflows.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card reveal">
+          <h3>What I Do</h3>
+          <p>
+            I design and develop responsive web applications with modern UI, secure backend, and smooth user experience.
+          </p>
+          <ul class="ticks">
+            <li>Web Development</li>
+            <li>Python Development</li>
+            <li> Devops Basics</li>
+            <li>Java Programming</li>
+          </ul>
+        </div>
+
+        <div class="glass-card reveal">
+          <h3>My Strength</h3>
+          <p>
+            I focus on building modern projects with clean code, responsive layouts, and strong fundamentals.
+          </p>
+          <ul class="ticks">
+            <li>Responsive & Modern UI</li>
+            <li>Problem Solving</li>
+            <li>Team Collaboration</li>
+            <li>Continuous Learning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+<section class="section" id="education">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Education</h2>
+        <p>My academic journey and foundation in technology</p>
+      </div>
+
+<div class="edu-wrapper">
+
+  <button class="edu-nav prev">&#10094;</button>
+
+  <div class="edu-slider">
+
+    <div class="edu-slide active">
+      <img src="assets/wainganga.png">
+      <div class="edu-content">
+        <h3>B.Tech - Computer Science Engineering</h3>
+        <p>Wainganga College Of Engineering</p>
+        <span>2022 - 2026 | Nagpur</span>
+      </div>
+    </div>
+
+    <div class="edu-slide">
+      <img src="assets/kamla Nehru.png">
+      <div class="edu-content">
+        <h3>Intermediate</h3>
+        <p>Kamla Nehru College</p>
+        <span>2020 - 2022 | Nagpur</span>
+      </div>
+    </div>
+
+    <div class="edu-slide">
+      <img src="assets/sanjuba.png">
+      <div class="edu-content">
+        <h3>School</h3>
+        <p>Sanjuba High School</p>
+        <span>2019 - 2020 | Nagpur</span>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="edu-nav next">&#10095;</button>
+
+</div>
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Skills</h2>
+        <p>My core technical skills and tools.</p>
+      </div>
+
+      <div class="skills-wow reveal">
+        <div class="skills-wow-top">
+
+
+          <div class="wow-icon" style="--angle:0deg"><i class="fa-brands fa-js"></i></div>
+          <div class="wow-icon" style="--angle:36deg"><i class="fa-brands fa-python"></i></div>
+          <div class="wow-icon" style="--angle:72deg"><i class="fa-solid fa-code"></i></div>
+          <div class="wow-icon" style="--angle:108deg"><i class="fa-brands fa-html5"></i></div>
+          <div class="wow-icon" style="--angle:144deg"><i class="fa-brands fa-css3-alt"></i></div>
+          <div class="wow-icon" style="--angle:180deg"><i class="fa-solid fa-database"></i></div>
+          <div class="wow-icon" style="--angle:216deg"><i class="fa-solid fa-gears"></i></div>
+          <div class="wow-icon" style="--angle:252deg"><i class="fa-brands fa-linux"></i></div>
+          <div class="wow-icon" style="--angle:288deg"><i class="fa-brands fa-github"></i></div>
+          <div class="wow-icon" style="--angle:324deg"><i class="fa-solid fa-code"></i></div>
+        </div>
+
+        <div class="skills-wow-center">
+          <div class="wow-sigma">Σ</div>
+        </div>
+
+        <div class="skills-wow-lines">
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+          <span style="--i:4"></span>
+          <span style="--i:5"></span>
+        </div>
+
+        <div class="skills-wow-orbits">
+          <div class="wow-orbit o1"></div>
+          <div class="wow-orbit o2"></div>
+          <div class="wow-orbit o3"></div>
+        </div>
+      </div>
+
+      <!-- UPDATED SKILLS GRID (12) -->
+      <div class="skills-grid reveal">
+        <div class="skill-card"><span>React</span><small>Frontend</small></div>
+        <div class="skill-card"><span>JavaScript</span><small>Logic</small></div>
+        <div class="skill-card"><span>HTML</span><small>Structure</small></div>
+        <div class="skill-card"><span>CSS</span><small>Styling</small></div>
+
+        <div class="skill-card"><span>Python</span><small>Backend</small></div>
+        <div class="skill-card"><span>Node.js</span><small>Server</small></div>
+        <div class="skill-card"><span>SQL</span><small>Database</small></div>
+        <div class="skill-card"><span>C</span><small>Programming</small></div>
+
+        <div class="skill-card"><span>AWS</span><small>Cloud</small></div>
+        <div class="skill-card"><span>DevOps</span><small>CI/CD</small></div>
+        <div class="skill-card"><span>GitHub</span><small>Version Control</small></div>
+        <div class="skill-card"><span>Gen AI</span><small>AI Tools</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Experience</h2>
+        <p>My work and internship journey.</p>
+      </div>
+
+      <div class="experience-wrap reveal">
+
+  <!-- LEFT -->
+  <div class="experience-card">
+    <h3>Cyberathon Technologies</h3>
+    <div class="exp-company">Web Developer (Intern)</div>
+    <ul class="exp-list">
+      <li>Working on real-world Web Development projects.</li>
+      <li>Building web pages and improved UI design.</li>
+      <li>Improving skills in modern development workflows.</li>
+    </ul>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="experience-card">
+    <h3>Digitron Software</h3>
+    <div class="exp-company">Web Developer</div>
+    <ul class="exp-list">
+      <li>Worked on Billing software project.</li>
+      <li>Learned Frontend and logic building.</li>
+      <li>Improved coding and debugging skills.</li>
+    </ul>
+  </div>
+
+</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+
+<section class="section" id="projects">
+  <div class="container">
+<div class="project-nav" id="projectNav" style="display:none;">
+  <button onclick="prevSlide()">⬅ Prev</button>
+  <button onclick="nextSlide()">Next ➡</button>
+</div>
+
+    <div class="section-head">
+      <h2>Projects</h2>
+      <p>Some of my best work and featured projects.</p>
+    </div>
+
+    <!-- Trigger -->
+   <a href="projects.html" class="projects-dump">
+  <h3>💼 My Projects Dump</h3>
+  <p>Click to explore my featured work</p>
+</a>
+
+    <!-- STACK -->
+    <div class="projects-stack" id="projectsStack">
+
+      <!-- PROJECT 1 -->
+      <div class="project-row">
+        <div class="project-text">
+          <span class="tag">Featured</span>
+          <h3>MERN stack Restaurant Reservation</h3>
+          </div>
+
+        <div class="project-image reveal-card">
+          <img src="assets/pro1.png"/>
+
+          <div class="reveal-content">
+            <h4>AutoHealX</h4>
+            <a href="#">View</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-row reverse">
+        <div class="project-text">
+          <span class="tag">Featured</span>
+          <h3>Devops cloud Portfolio</h3>
+ <        </div>
+
+        <div class="project-image reveal-card">
+          <img src="assets/pro2.png"/>
+
+          <div class="reveal-content">
+            <h4>ImagetoExcel</h4>
+            <a href="#">View</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="project-row">
+        <div class="project-text">
+          <span class="tag">Featured</span>
+          <h3>Biling Software Management System</h3>
+
+        </div>
+
+        <div class="project-image reveal-card">
+          <img src="assets/pro3.png"/>
+
+          <div class="reveal-content">
+            <h4>Billing Software</h4>
+            <a href="#">View</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+ <section class="section" id="certificates">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Certificates</h2>
+    <p>Verified achievements reflecting my continuous learning and technical growth.</p>
+      </div>
+
+  <div class="cert-grid">
+
+  <div class="cert-card reveal">
+    <div class="cert-inner">
+
+      <!-- FRONT -->
+      <div class="cert-front">
+        <h3>Employability Skill Development</h3>
+        <p>Mahindra Pride Classroom-Nandi Foundation(2025-2026)</p>
+        <button class="view-btn">View Certificate</button>
+      </div>
+
+      <!-- BACK -->
+      <div class="cert-back">
+        <img src="assets/cer1.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="cert-card reveal">
+    <div class="cert-inner">
+
+      <div class="cert-front">
+        <h3>Advantage Vidharbha 2026</h3>
+        <p>Association for Industrial Development(AID)</p>
+        <button class="view-btn">View Certificate</button>
+      </div>
+
+      <div class="cert-back">
+        <img src="assets/cer2.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="cert-card reveal">
+    <div class="cert-inner">
+
+      <div class="cert-front">
+        <h3>NCVET Certification</h3>
+        <p>National Occupational Standards(2024)</p>
+        <button class="view-btn">View Certificate</button>
+      </div>
+
+      <div class="cert-back">
+        <img src="assets/cer3.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+  <!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p class="subtitle">Any questions? Just write me a message!</p>
+
+    <form action="https://formsubmit.co/deshmukhanushka776@gmail.com" method="POST">
+
+      <div class="input-row">
+        <input type="text" name="name" placeholder="Enter your Name" required />
+        <input type="email" name="email" placeholder="Enter your Email" required />
+      </div>
+
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <!-- optional -->
+      <input type="hidden" name="_captcha" value="false"/>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+
+    </form>
+
+  </div>
+</section>
+<div class="contact-icons">
+
+  <a href="https://www.linkedin.com/in/deshmukh-anushka18/" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  <a href="https://github.com/anushkadeshmukh18" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <a href="tel:+919322465112">
+    <i class="fas fa-phone"></i>
+  </a>
+
+  
+
+
+
+</div>  
+</section>
+
+    </div>  <!-- last project-row -->
+<footer class="footer">
+  <p>© 2026 • Designed & Built by Anushka</p>
+</footer>
+  <!-- JS -->
+  <script src="script.js"></script>
+<script src="script.js"></script>
+  <!-- Particles JS Library -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="particles-config.js"></script>
+</body>
+</body>
+</html>
